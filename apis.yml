@@ -7,7 +7,7 @@ type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-22'
+modified: '2026-03-16'
 position: Consuming
 description: >-
   Find data on spending, revenues, deficits, and debt from CBOs Budget and
@@ -15,6 +15,6 @@ description: >-
   to 2024 and their extensions for additional decades.
 maintainers:
   - FN: Kin Lane
-    email: info@apievangelist.com
+    email: kin@apievangelist.com
 specificationVersion: '0.19'
 name: Congressional Budget Office
