@@ -2,7 +2,7 @@ aid: congressional-budget-office
 url: >-
   https://raw.githubusercontent.com/api-evangelist/congressional-budget-office/refs/heads/main/apis.yml
 name: Congressional Budget Office
-x-type: government
+kind: government
 description: >-
   The Congressional Budget Office (CBO) is the U.S. legislative branch agency
   that provides nonpartisan analyses of budgetary and economic issues to
@@ -122,7 +122,7 @@ common:
     url: https://www.cbo.gov/about/products
   - type: Feeds
     url: https://www.cbo.gov/about/get-cbo-information#rss
-  - type: Privacy Policy
+  - type: PrivacyPolicy
     url: https://www.cbo.gov/about/policies/privacy-and-security-policy
 maintainers:
   - FN: Kin Lane
