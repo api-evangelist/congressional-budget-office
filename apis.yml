@@ -114,6 +114,10 @@ apis:
       - Drive ingestion pipelines for CBO publications
       - Cross-reference RSS items with full publication PDFs
 common:
+  - type: GitHubOrganization
+    url: https://github.com/us-cbo
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/congressional-budget-office
   - type: Website
     url: https://www.cbo.gov/
   - type: Documentation
