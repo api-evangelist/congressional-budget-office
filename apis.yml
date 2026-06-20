@@ -12,7 +12,7 @@ description: >-
   files on cbo.gov; CBO does not currently publish a programmatic JSON API,
   but RSS feeds and downloadable structured workbooks make it possible to
   ingest CBO data into automated pipelines.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Budget
   - CBO
