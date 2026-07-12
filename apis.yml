@@ -114,6 +114,8 @@ apis:
       - Drive ingestion pipelines for CBO publications
       - Cross-reference RSS items with full publication PDFs
 common:
+  - type: DomainSecurity
+    url: security/congressional-budget-office-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/us-cbo
   - type: LinkedIn
