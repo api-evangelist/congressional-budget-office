@@ -35,7 +35,7 @@ tags:
   - RSS
 created: '2024-12-03'
 modified: '2026-04-28'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: congressional-budget-office:budget-and-economic-data
     name: CBO Budget and Economic Data
