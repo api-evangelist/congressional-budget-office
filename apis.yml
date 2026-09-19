@@ -37,7 +37,7 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/congressional-budget-office.png
 tags:
-  - Budget
+  - Budgets
   - CBO
   - Economic Projections
   - Federal-Government
@@ -67,6 +67,11 @@ apis:
     humanURL: https://www.cbo.gov/data/budget-economic-data
     baseURL: https://www.cbo.gov
     tags:
+      - Budgets
+      - Economics
+      - Excel
+      - Projections
+    tags_raw:
       - Budget
       - Economic
       - Excel
@@ -126,6 +131,10 @@ apis:
     humanURL: https://www.cbo.gov/about/get-cbo-information#rss
     baseURL: https://www.cbo.gov
     tags:
+      - Feed
+      - Publications
+      - RSS
+    tags_raw:
       - Feeds
       - Publications
       - RSS
