@@ -40,7 +40,7 @@ tags:
   - Budgets
   - CBO
   - Economic Projections
-  - Federal-Government
+  - Federal Government
   - Legislative Branch
   - Open Data
   - RSS
@@ -52,6 +52,7 @@ tags_raw:
   - Legislative Branch
   - Open Data
   - RSS
+  - Federal-Government
 created: '2024-12-03'
 modified: '2026-04-28'
 specificationVersion: '0.23'
@@ -65,7 +66,6 @@ apis:
       historical data going back several decades. Files are published as
       Excel workbooks and PDFs.
     humanURL: https://www.cbo.gov/data/budget-economic-data
-    baseURL: https://www.cbo.gov
     tags:
       - Budgets
       - Economics
@@ -100,7 +100,6 @@ apis:
       including PAYGO scoring. Cost estimates are released as PDFs along
       with HTML summaries on cbo.gov.
     humanURL: https://www.cbo.gov/cost-estimates
-    baseURL: https://www.cbo.gov
     tags:
       - Cost Estimate
       - Legislation
@@ -129,7 +128,6 @@ apis:
       cost estimates, blog posts, working papers, and presentations. RSS
       is the primary machine-readable surface for new CBO releases.
     humanURL: https://www.cbo.gov/about/get-cbo-information#rss
-    baseURL: https://www.cbo.gov
     tags:
       - Feed
       - Publications
