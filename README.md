@@ -64,55 +64,106 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-The Congressional Budget Office (CBO) is the U.S. legislative branch agency that provides nonpartisan analyses of budgetary and economic issues to Congress. CBO publishes the Budget and Economic Outlook, projections of spending, revenues, deficits, and debt, cost estimates of legislation, and analytical reports. CBO data is distributed primarily as Excel and PDF files on cbo.gov, with RSS feeds for publications and cost estimates.
+The Congressional Budget Office (CBO) is the U.S. legislative branch agency that provides nonpartisan analyses of budgetary and economic issues to Congress. CBO publishes the Budget and Economic Outlook, projections of spending, revenues, deficits, and debt, cost estimates of legislation, and analytical reports. CBO data is distributed primarily as Excel and PDF files on cbo.gov; CBO does not currently publish a programmatic JSON API, but RSS feeds and downloadable structured workbooks make it possible to ingest CBO data into automated pipelines.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/congressional-budget-office/refs/heads/main/apis.yml)
+**Areas:** Budgets · CBO · Economic Projections · Federal Government · Legislative Branch · Open Data · RSS
 
-## Tags
+## Congressional Budget Office on APIs.io
 
-- Budget, CBO, Economic Projections, Federal Government, Legislative Branch, Open Data, RSS
+Everything profiled for Congressional Budget Office is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/congressional-budget-office/](https://apis.io/providers/congressional-budget-office/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (3)
 
-- **Created:** 2024-12-03
-- **Modified:** 2026-04-28
+- [CBO Budget and Economic Data](https://apis.io/apis/congressional-budget-office/budget-and-economic-data/) — Downloadable budget and economic data accompanying CBO's Budget and Economic Outlook reports. Includes 10-year projections of revenues, outlays, deficits,…
+- [CBO Cost Estimates](https://apis.io/apis/congressional-budget-office/cost-estimates/) — CBO publishes cost estimates for legislation under consideration by Congress, covering both direct spending and revenue impact and including PAYGO scoring.…
+- [CBO Publications RSS Feeds](https://apis.io/apis/congressional-budget-office/publications-rss/) — CBO publishes RSS feeds for its publications, including reports, cost estimates, blog posts, working papers, and presentations. RSS is the primary…
 
-## APIs
+### Published properties
 
-### CBO Budget and Economic Data
-Downloadable budget and economic data including 10-year projections of revenues, outlays, deficits, debt, employment, GDP, and interest rates.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-**Human URL:** [https://www.cbo.gov/data/budget-economic-data](https://www.cbo.gov/data/budget-economic-data)
+#### Security (1)
 
-#### Tags
-- Budget, Economic, Excel, Projections
+Authentication, trust centre, and vulnerability disclosure.
 
-### CBO Cost Estimates
-CBO publishes cost estimates for legislation under consideration by Congress, including direct spending, revenue impact, and PAYGO scoring.
+- [Congressional Budget Office Domain Security](https://apis.io/security/congressional-budget-office/congressional-budget-office-domain-security/)
 
-**Human URL:** [https://www.cbo.gov/cost-estimates](https://www.cbo.gov/cost-estimates)
+#### Plans and pricing (1)
 
-#### Tags
-- Cost Estimate, Legislation, PAYGO, Scoring
+Published plans, tiers and prices.
 
-### CBO Publications RSS Feeds
-CBO publishes RSS feeds for publications, cost estimates, blog posts, working papers, and presentations.
+- [Congressional Budget Office Plans Pricing](https://apis.io/plans/congressional-budget-office/congressional-budget-office-plans-pricing/)
 
-**Human URL:** [Get CBO information](https://www.cbo.gov/about/get-cbo-information#rss)
+#### Rate limits (1)
 
-#### Tags
-- Feeds, Publications, RSS
+Published request limits.
 
-## Common Properties
+- [Congressional Budget Office Rate Limits](https://apis.io/rate-limits/congressional-budget-office/congressional-budget-office-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Congressional Budget Office Finops](https://apis.io/finops/congressional-budget-office/congressional-budget-office-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.cbo.gov/)
-- [Budget and Economic Data](https://www.cbo.gov/data/budget-economic-data)
-- [Products](https://www.cbo.gov/about/products)
-- [RSS Feeds](https://www.cbo.gov/about/get-cbo-information#rss)
-- [Privacy](https://www.cbo.gov/about/policies/privacy-and-security-policy)
+- [Documentation](https://www.cbo.gov/data/budget-economic-data)
+- [Privacy policy](https://www.cbo.gov/about/policies/privacy-and-security-policy)
+- [GitHub](https://github.com/us-cbo)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 14.1** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 18.4 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 9.8** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/congressional-budget-office/](https://apis.io/providers/congressional-budget-office/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Congressional Budget Office: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/congressional-budget-office/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
